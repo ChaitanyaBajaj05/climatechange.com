@@ -1,0 +1,614 @@
+/* Reset default browser styles */
+html, body {
+    height: 100%;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EDEDED;
+  }
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  header {
+    padding: 10px;
+  }
+}
+
+/* Updated styles for navigation bar */
+header {
+    background-color:#1569C7;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    border:1px solid #1E90FF;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    nav ul {
+      display: block;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li:last-child {
+      margin-bottom: 0;
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 10px;
+    }
+  }
+  
+  main {
+    padding: 20px;
+  }
+/* Styles for hero section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #EDEDED;
+    color: #333333;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #1E90FF;
+    color: #333333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #1569C7;
+  }
+  
+  /* Styles for feature section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  /* Existing CSS remains unchanged */
+
+/* Existing CSS remains unchanged */
+
+/* Updated styles for the features section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    color: #008080 ;
+  }
+  
+  .feature {
+    flex: 0 1 calc(33.333% - 40px);
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F5F5F5 ;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #008080 ;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+  }
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .feature {
+      flex: 0 1 calc(50% - 40px);
+    }
+  
+    .feature h2 {
+      font-size: 22px;
+    }
+  
+    .feature p {
+      font-size: 14px;
+    }
+  }
+/* ... (previous CSS remains unchanged) */
+
+.information {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+
+.statistics {
+  margin-top: 20px;
+}
+
+.maps, .videos {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+.statistics {
+  margin-top: 20px;
+}
+
+.statistics ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#chart_div {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+}
+.maps {
+  margin-top: 20px;
+}
+
+#regions_div {
+  width: 100%;
+  height: 400px;
+}
+.videos {
+  margin-top: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  margin-bottom: 20px;
+  width: 45%; /* Adjust width as needed */
+}
+.blog {
+  margin-top: 20px;
+}
+
+.article {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.article img {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.article-info {
+  flex: 1;
+}
+
+.article h3 {
+  margin-top: 0;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.excerpt {
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .article {
+    flex-direction: column;
+  }
+
+  .article img {
+    width: 100%; /* Adjust for full width on smaller screens */
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  header {
+    padding: 15px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .information,
+  .maps,
+  .videos {
+    margin-top: 15px;
+    padding: 15px;
+  }
+}
+
+  
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .conservation-info {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+  .project-info {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:  #F8F8F8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-info h2 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .project-description {
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
+  .project-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Add a background color */
+    color: white;
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    border-radius: 4px;
+    font-size: 1em; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding:40px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Transition for smooth image change */
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  section.prediction-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  section.prediction-content h2 {
+    margin-top: 0;
+  }
+  
+  ul.prediction-factors {
+    list-style-type: square;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Within your existing CSS file */
+.prediction-subsection {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prediction-subsection h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .prediction-subsection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+/* Add styles for resource links and sections here */
+/* Example styles for resource links */
+.resource-section {
+    margin-bottom: 30px;
+  }
+  
+  .resource-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .resource-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resource-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .resource-section ul li a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+  }
+/* CSS for contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+/* Previous CSS content */
+
+.comparative-analysis {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.comparison-chart {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.analysis-text {
+  text-align: left;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .comparison-chart img {
+    width: 100%; /* Ensure the chart/image is responsive */
+    height: auto;
+  }
+}
+/* Previous CSS content */
+
+.comparative-analysis {
+  background-color: #EDEDED;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.comparative-analysis {
+  margin-top: 20px;
+  background-color: #EDEDED;
+  text-align: left;
+}
+
+.analysis-text {
+  background-color: #EDEDED;
+  text-align: left;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.analysis-text h3 {
+  font-size: 1.5em;
+  color: darkgreen;
+  margin-bottom: 10px;
+}
+
+.analysis-text p.overview {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333333;
+}
+
+footer {
+  width: 100%;
+  height: 100px; /* Adjust height as needed */
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.image-container {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding:20px;
+}
+
+.image-container img {
+  width: 98%;
+  height: 800px;
+}
