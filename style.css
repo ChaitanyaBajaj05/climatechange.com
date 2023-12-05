@@ -615,9 +615,8 @@ body {
 .video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio - adjust as needed */
   overflow: hidden;
-  max-width: 100%; /* Ensure the video doesn't exceed the container */
+  padding-top: 56.25%; /* 16:9 aspect ratio - adjust as needed */
 }
 
 /* Video */
@@ -627,4 +626,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .video-container {
+    padding-top: 75%; /* Adjust aspect ratio or padding for smaller screens if needed */
+  }
 }
