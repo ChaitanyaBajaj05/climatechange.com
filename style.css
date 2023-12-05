@@ -610,7 +610,7 @@ body {
 
 .image-container img {
   width: 98%;
-  height: 800px;
+  height: auto;
 }
 .video-container {
   position: relative;
