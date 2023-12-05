@@ -633,4 +633,8 @@ body {
   .video-container {
     padding-top: 75%; /* Adjust aspect ratio or padding for smaller screens if needed */
   }
+.image-container {
+    max-width: 100%;
+    height: auto;
+  
 }
